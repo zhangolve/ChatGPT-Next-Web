@@ -298,15 +298,7 @@ export const DEFAULT_MODELS = [
       providerType: "google",
     },
   })),
-  // ...anthropicModels.map((name) => ({
-  //   name,
-  //   available: true,
-  //   provider: {
-  //     id: "anthropic",
-  //     providerName: "Anthropic",
-  //     providerType: "anthropic",
-  //   },
-  // })),
+  
   ...baiduModels.map((name) => ({
     name,
     available: true,
